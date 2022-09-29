@@ -2,9 +2,6 @@ import requests
 from core.settings import LAST_FM_API_KEY
 from abc import ABC, abstractmethod
 
-# akshansh.gupta@oml.in
-# http://ws.audioscrobbler.com/2.0/?method=album.search&album=believe&api_key=8c224aa34632f7b7c36993cdcc8b7035&format=json
-
 
 class GetDataExternalAPI(ABC):
     """base abstract class got get data"""
